@@ -21,8 +21,8 @@ while not url.endswith('#'):
 	logging.debug(res)
 
 	soup = bs4.BeautifulSoup(res.text,"html.parser")
-	logging.debug('The requests object is:  ')
-	logging.debug(soup)
+	# logging.debug('The requests object is:  ')
+	# logging.debug(soup)
 
 	# find the URL of the comic image
 	logging.debug('Locating comic image links...')
@@ -33,7 +33,7 @@ while not url.endswith('#'):
 	if comicElem == []:
 		print("Could not find comic image.")
 	else:
-		comicUrl = comicElem[0].get('src') # find the src attribute and get its value
+		comicUrl = "http:" + comicElem[0].get('src') # find the src attribute and get its value
 		# the selector should contain a list with only one image element because there's only one image on the page
 		logging.debug('The comicUrl is:  ')
 		logging.debug(comicUrl)
