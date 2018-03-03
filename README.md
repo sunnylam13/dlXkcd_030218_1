@@ -22,6 +22,10 @@ A program that can be used to download XKCD webcomics.
 
 * find the URL of the Previous Comic link and repeat
 
+## Usage
+
+	python3 dlXkcd_030218_1.py
+
 ## Source URL
 
 http://xkcd.com/
