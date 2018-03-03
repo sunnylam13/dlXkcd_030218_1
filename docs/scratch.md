@@ -70,4 +70,16 @@ You need at least:
 
 so adjust code to add it
 
+## Friday, March 2, 2018 10:05 PM
+
+Ideas for Similar Programs
+
+* backup an entire site by link following
+
+* copy all messages off a web forum
+
+* duplicate catalog of items for sale on an online store
+
+where URLs are hard to find or you have to log into a web site, use `selenium` module...
+
 
