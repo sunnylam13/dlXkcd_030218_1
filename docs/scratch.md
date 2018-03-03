@@ -14,3 +14,9 @@ ensures that the folders is real
 
 the `exist_ok=True` stops any exceptions if the folder's already there
 
+if:
+
+	comicElem = soup.select('#comic img')
+
+finds nothing then you get a blank list
+

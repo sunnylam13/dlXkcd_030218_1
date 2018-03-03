@@ -34,6 +34,7 @@ while not url.endswith('#'):
 		print("Could not find comic image.")
 	else:
 		comicUrl = comicElem[0].get('src') # find the src attribute and get its value
+		# the selector should contain a list with only one image element because there's only one image on the page
 		logging.debug('The comicUrl is:  ')
 		logging.debug(comicUrl)
 
