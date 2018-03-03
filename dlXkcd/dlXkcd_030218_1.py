@@ -5,7 +5,7 @@
 
 import requests, os, bs4, logging
 logging.basicConfig(level=logging.DEBUG, format=" %(asctime)s - %(levelname)s - %(message)s")
-# logging.disable(logging.CRITICAL)
+logging.disable(logging.CRITICAL)
 
 url = 'http://xkcd.com/' # starting url
 
