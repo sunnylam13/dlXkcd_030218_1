@@ -51,7 +51,7 @@ while not url.endswith('#'):
 		imageFile.write(chunk)
 	imageFile.close()
 
-	# TODO:  get the Prev button's url
+	# get the Prev button's url
 	logging.debug('Get the Prev button url')
 	prevLink = soup.select('a[rel="prev"]')[0] # the first match using [0]
 	url = 'http://xkcd.com' + prevLink.get('href')
